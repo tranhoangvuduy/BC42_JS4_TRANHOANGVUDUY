@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>BT-JS3</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- BT1: VIẾT CHƯƠNG TRÌNH XUẤT 3 SỐ NGUYÊN THEO THỨ TỰ TĂNG DẦN. -->
+  <br>
+  <br>
+  <div class="form-group container">
+    <h4>BT1: VIẾT CHƯƠNG TRÌNH XUẤT 3 SỐ NGUYÊN THEO THỨ TỰ TĂNG DẦN.</h4>
+    <div class="form-group">
+      <p>Nhập số thứ 1</p>
+      <input id="soThuNhat" class="form-control w-25" type="text">
+    </div>
+    <br>
+    <div class="form-group">
+      <p>Nhập số thứ 2</p>
+      <input id="soThuHai" class="form-control w-25" type="text">
+    </div>
+    <br>
+    <div class="form-group">
+      <p>Nhập số thứ 3</p>
+      <input id="soThuBa" class="form-control w-25" type="text">
+    </div>
+    <br>
+    <button id="btnSapXep" class="btn btn-success">Sắp xếp</button>
+    <br>
+    <br>
+    <div class="mt-2 alert alert-success">
+      Kết quả : <span id="thuTu"></span>
+    </div>
+
+  </div>
+  <br>
+  <br>
+  <hr>
+  <!-- BT2: CHƯƠNG TRÌNH CHÀO HỎI -->
+  <div class="form-group container">
+    <h4>BT2: CHƯƠNG TRÌNH CHÀO HỎI </h4>
+    <br>
+    <select class="form-control" name="" id="chonThanhvien">
+      <option value="X">Chọn thành viên</option>
+      <option value="A">Bố</option>
+      <option value="B">Mẹ</option>
+      <option value="C">Anh trai</option>
+      <option value="D">Em gái</option>
+    </select>
+    <br>
+    <br>
+    <button id="btnGuiLoiChao" class="btn btn-success">Gửi lời chào</button>
+    <br>
+    <br>
+    <div class="mt-2 alert alert-success">
+      Kết quả : <span id="loiChao"></span>
+    </div>
+
+
+
+  </div>
+  <!-- BT3: ĐẾM SỐ CHẴN, LẺ. -->
+  <br>
+  <br>
+  <hr>
+  <div class="form-group container">
+    <h4>BT3: ĐẾM SỐ CHẴN, LẺ.</h4>
+    <div class="form-group">
+      <p>Nhập số thứ 1</p>
+      <input id="soOne" class="form-control w-25" type="text">
+    </div>
+    <br>
+    <div class="form-group">
+      <p>Nhập số thứ 2</p>
+      <input id="soTwo" class="form-control w-25" type="text">
+    </div>
+    <br>
+    <div class="form-group">
+      <p>Nhập số thứ 3</p>
+      <input id="soThree" class="form-control w-25" type="text">
+    </div>
+    <br>
+    <button id="btnDem" class="btn btn-success">ĐẾM</button>
+    <br>
+    <br>
+    <div class="mt-2 alert alert-success">
+      Kết quả : <span id="xuatRa"></span>
+    </div>
+
+  </div>
+  <!-- BT3: ĐOÁN HÌNH TAM GIÁC -->
+  <br>
+  <br>
+  <hr>
+  <div class="form-group container">
+    <h4>BT4:  ĐOÁN HÌNH TAM GIÁC </h4>
+    <div class="form-group">
+      <p>Nhập cạnh thứ 1</p>
+      <input id="canhMot" class="form-control w-25" type="text">
+    </div>
+    <br>
+    <div class="form-group">
+      <p>Nhập cạnh thứ 2</p>
+      <input id="canhHai" class="form-control w-25" type="text">
+    </div>
+    <br>
+    <div class="form-group">
+      <p>Nhập cạnh thứ 3</p>
+      <input id="canhBa" class="form-control w-25" type="text">
+    </div>
+    <br>
+    <button id="btnDuDoan" class="btn btn-success">DỰ ĐOÁN</button>
+    <br>
+    <br>
+    <div class="mt-2 alert alert-success">
+      Kết quả : <span id="duaRakq"></span>
+    </div>
+
+  </div>
+  
+  
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- MY JS -->
+
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>
